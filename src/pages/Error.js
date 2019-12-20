@@ -1,11 +1,16 @@
 import React from 'react'
-
-const Error = () => {
+import Hero from '../components/Hero';
+import Banner from '../components/Banner';
+import {Link} from 'react-router-dom'
+const ErrorComp = () => {
   return (
-    <div>
-      Hello from error page
-    </div>
+    <Hero>
+      <Banner title='404' subTitle="Page don't exist">
+          <Link to='/' className="btn-primary">Return home</Link>
+      </Banner>
+      
+    </Hero>
   )
 }
 
-export default Error
+export default ErrorComp
