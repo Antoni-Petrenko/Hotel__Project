@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import Rooms from './pages/Rooms';
 import SingleRoom from './pages/SingleRoom';
 import NavBar from './components/NavBar'
-
 import {Route,Switch} from 'react-router-dom';
 function App() {
   return (
